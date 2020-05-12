@@ -1,0 +1,58 @@
+body{
+    font-family: monospace;
+}
+h1{
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 10px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1:hover{
+    /* define o tamanho, tipo da bordar e a cor. */
+    border-bottom: 2px solid skyblue; 
+    box-shadow: 3px 3px 15px 0px rgb(206, 215, 219);
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    
+    background-color: rgb(0, 173, 247);
+    
+    border-radius: 10px;
+    
+    color: white;
+
+    font-size: 20px;
+    font-family: monospace;
+    
+    list-style: none;
+    
+    padding: 10px;
+}
+
+.menu li:hover{
+    background-color: rgb(155, 173, 228);
+}
+
+.menu li:click{
+    border: 2px solid rgb(206, 215, 219);
+}
+
+
+.divider{
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+
+
