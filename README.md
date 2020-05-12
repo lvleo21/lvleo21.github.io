@@ -1,2 +1,5 @@
 # lvleo21.github.io
-profile page
+
+# {Imersão CSS} - Alura
+
+Repositório utilizado para as aulas do [Imersão CSS](https://www.alura.com.br/artigos/imersao-css)

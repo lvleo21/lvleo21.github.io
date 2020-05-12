@@ -51,4 +51,5 @@ a:hover{
 
 .site-title:hover{
     color: bisque;
+    border: red roudend 1px;
 }
