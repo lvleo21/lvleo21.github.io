@@ -1,0 +1,7 @@
+/* se a tela tiver pelo menos 400px vai carregar estes estilos*/
+@media(min-width: 400px){
+    body{
+        font-size: 14px;
+        
+    }
+}

@@ -8,30 +8,66 @@
     <title>{Imersão CSS} - _lvleo21</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-tag.css">
+    <link rel="stylesheet" href="css/style-media.css">
 
-
+    
 </head>
 
 <body>
-    <header>
+    <header id = "home">
         <nav class="menu">
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+                <li><a href="#">About</a></li>
+
             </ul>
         </nav>
-        <h1 class="site-title">Leonardo veras</h1>
-        <h2 class="site-subtitle">Web developer</h2>
+        <div >
+            <div class="icon">
+                <img class = "profile-img" src="img/profile.jpeg">
+                <!-- <i class="material-icons" style="font-size: 12vw" ;>person_pin</i> -->
+            </div>
+            <h1 class="site-title">Leonardo Veras</h1>
+            <h2 class="site-subtitle">
+                Graduating in Information Systems at UFRPE - UAST</h2>
+        </div>
+
     </header>
+    <div class="card"  id = "portfolio">
 
-    <body>
+    <div class="card-header">
+        <h2>Portfólio</h2>
+    </div>
+    <div class="card-body">
+    <section> 
         
-    </body>
+        
+        <figure>
+            <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+            <figcaption>eCommerce</figcaption>
+        </figure>
+        
+        <figure>
+            <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+            <figcaption>Mobile</figcaption>
+        </figure>
+        <figure>
+            <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+            <figcaption>Web design</figcaption>
+        </figure>
+        <figure>
+            <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
+                alt="Projetos pessoais">
+            <figcaption>Projetos pessoais</figcaption>
+        </figure>
+    </section>
+</div>
 
-    <footer>
-        
-    </footer>
+</div>
 
 </body>
 

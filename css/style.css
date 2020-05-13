@@ -1,55 +1,117 @@
-body{
-    /* background-image: url('https://www.ufrgs.br/setorsuinos/wp-content/uploads/2019/07/fundo-azul-degrade-2-1024x564.jpg');*/
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-
-    font-family: Arial, Helvetica, sans-serif;
-    background-size: auto 100vh ;
-}
-
 .menu{
-    background-color: white;
-    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 1px 10px 0px rgb(177, 177, 177);
+    position: fixed;
+    top: 0;
+    width: 100%;
+        
 }
 
 /* aqui eu digo que todas as 'li' dentro de menu teram essa propriedade */
 .menu li{
     /* aqui eu retiro as bolinhas que vem padrão no li */
+    
     list-style: none; 
-
+    font-size: 20px;
 }
 
 .menu ul{
-    display: flex; /* aqui eu troco a visualização para coluna em vez de linha(um ao lado do outro)*/
-    
+    display: flex; /* aqui eu troco a visualização para coluna em vez de linha(um ao lado do outro)*/  
     justify-content: space-around; /*aqui estou dando espaçamento entre as colunas da lista*/
 }
 
-a{  
-
-    color: black;
-    /* retirar sublinhado do texto */
-    text-decoration: none; 
+.menu a{
+    display: block;
+    padding: 10px;
+    font-family: monospace;
+    
+    
 }
 
-a:hover{
-    /* adicionar sublinhado ao texto */
-    text-decoration: underline;
+.menu a:hover{
+    color: #08AEEA;
+    background-color: rgb(243, 243, 243);
+    text-transform: uppercase;
+    
+}
+
+.menu a:active{
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(5, 119, 233);
 }
 
 /*Aqui estou usando as mesmas propriedades para as duas classes*/
 .site-subtitle, 
 .site-title{
-    color:WHITESMOKE;
+    color:rgb(3, 1, 1);
     text-align: center
+}
+
+.site-title{
+    font-family: monospace;
 }
 
 .site-subtitle{
     font-style: italic;
 }
 
-
-.site-title:hover{
-    color: bisque;
-    border: red roudend 1px;
+.img-portfolio{
+    height: 180px;
+    width: 180px;
 }
+
+.icon{
+    display: flex;
+    justify-content: center;   
+}
+
+.profile-img{
+    width: 10vw;
+    border-radius: 20vw;
+    border: 4px solid rgb(255, 250, 250);
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+    margin: 5vw;
+    border-radius: 10px;
+}
+
+.card-body section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body figcaption{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin: 5px;
+}
+
+.card-body img{
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px 0px black;
+}
+
+.card-header{
+    background-color:rgb(228, 224, 224);
+    padding: 1vw;
+    border-radius: 1vw;
+    margin: 1vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.card-header h2{
+    font-size: 3rem;
+}
+
